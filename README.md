@@ -4,6 +4,8 @@ implementing the Residual Learning framework as proposed in the paper ["Deep Res
 
 
 **Overview**
+
+
 As neural networks become deeper, they suffer from **degradation problem**: accuracy saturates and then degrades rapidly.
 This is not caused by overfitting as training error also increases with test error. This project implements:
 1. Plain Networks: To observe the degradation problem where 50-layer netowork takes long time to fit or maybe overfit the `CIFAR dataset`.
